@@ -1,0 +1,1 @@
+{"name":"vcs-exercises-calculator","version":"1.0.0","description":"Starter repo for VCS exercises (Node.js calculator)","main":"index.js","scripts":{"test":"jest","start":"node index.js"},"devDependencies":{"jest":"^29.7.0"}}
