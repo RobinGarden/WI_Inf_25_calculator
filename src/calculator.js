@@ -9,4 +9,7 @@ function mod(a, b) {
 if (b === 0) throw new Error('DivideByZeroException');
 return a % b;
 }
-module.exports = { add, sub, mul, div, mod};
+function addThenMulThenDivBy3(a,b) {
+    return ((a+b)*(a+b))/3
+}
+module.exports = { add, sub, mul, div, mod, addThenMulThenDivBy3 };
