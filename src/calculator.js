@@ -1,8 +1,9 @@
 function add(a, b) { return a + b; }
 function sub(a, b) { return a - b; }
 function mul(a, b) { return a * b; }
+function number(a) { return a;}
 function div(a, b) {
 if (b === 0) throw new Error('DivideByZeroException');
 return a / b;
 }
-module.exports = { add, sub, mul, div};
+module.exports = { add, sub, mul, div, number};
