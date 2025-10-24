@@ -6,4 +6,8 @@ function div(a, b) {
 if (b === 0) throw new Error('DivideByZeroException');
 return a / b;
 }
-module.exports = { add, sub, mul, div, number};
+function mod(a, b) {
+if (b === 0) throw new Error('DivideByZeroException');
+return a % b;
+}
+module.exports = { add, sub, mul, div, mod, number};
